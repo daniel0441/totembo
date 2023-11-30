@@ -1,0 +1,125 @@
+.wathces__end-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1199.99px) {
+    .wathces__end-cards{
+        /* display: flex; */
+        
+        justify-content: center;
+        gap: 40px;
+        padding-left: 20px;
+    }
+}
+
+
+.wathces__more {
+    color: var(--grayColor);
+    font-family: var(--mon);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.watches-main-content {
+    padding: 60px 0;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    right: 19px;
+    top: 20px;
+}
+
+.watches__main-title {
+    color: var(--blackColor);
+    font-family: var(--mon);
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+.wathces__end-card {
+    margin-top: 40px;
+    padding: 72px 109px;
+    border-radius: 10px;
+    background: #E1E1E1;
+    max-width: 416px;
+    position: relative;
+    box-shadow: 5px 5px 5px 2px rgba(80, 72, 72, 0.2);
+}
+
+.watches__end-card-text-title {
+    color: var(--grayColor);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.7s;
+}
+
+.watches__end-card-text-title:hover {
+    transform: scale(1.2);
+}
+
+.watches__end-card-text-subtitle:hover {
+    transform: scale(1.2);
+}
+
+
+.watches__end-card-text-subtitle {
+    color: var(--blackColor);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+
+
+.watches__end-card-text-descr {
+    color: var(--grayColor);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.watches__end-card-text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.sale-end {
+    border-radius: 10px;
+    background: var(--grayColor);
+    padding: 11px 39px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 22px;
+    top: 16px;
+}
+
+.sale__end-title {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}

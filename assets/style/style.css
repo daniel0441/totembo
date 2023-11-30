@@ -1,0 +1,34 @@
+@import 'fonts.css';
+@import 'variable.css';
+@import './components/header.css';
+@import './components/watches-head.css';
+@import './components/wathes-main.css';
+@import './components/news.css';
+@import './components/footer.css';
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+    padding:  15px 0 15px 0;
+    margin: 0 auto;
+}
+
+body{
+    background: #F1F1F1;
+}
